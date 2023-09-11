@@ -1,11 +1,21 @@
 import { React, Component } from "react";
 import ReactDOM from "react-dom/client";
+import Card from "./components/Card";
+import Form from "./components/Form";
+
+import "./index.css";
 
 class App extends Component {
-  
   render() {
     return (
-      <h1>Hello world!</h1>
+      <div className="container">
+        <div className="leftSide">
+          <Card />
+        </div>
+        <div className="rightSide">
+          <Form />
+        </div>
+      </div>
     );
   }
 }

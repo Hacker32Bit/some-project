@@ -1,0 +1,30 @@
+.form {
+    padding: 15px 0 15px 0;
+    color: #7f8c8d;
+    display: flex;
+}
+
+.input-text {
+  width: 120px;
+}
+
+input[type="text"], [type="date"] {
+    margin-top: -10px;
+    padding: 13px;
+    width: 310px;
+    background-color: #ecf0f1;
+    border: 0;
+    border-radius: 6px;
+}
+
+input[type="radio"] {
+  color: #7f8c8d;
+}
+
+.submit {
+  float: right;
+}
+
+.submit span {
+  text-transform: uppercase;
+}
